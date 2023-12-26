@@ -1,7 +1,8 @@
-SelfVQA
-==============================
+## SelfVQA - Visual Question Answering with Self-Supervision
 
-A short description of the project.
+### Project Description:
+SelfVQA is an innovative project that explores the realm of Visual Question Answering (VQA) through the lens of self-supervised learning techniques. The goal of this project is to develop a robust model capable of answering questions about images, leveraging self-supervision to enhance its understanding of visual content.
+
 
 Project Organization
 ------------
@@ -54,4 +55,41 @@ Project Organization
 
 --------
 
-<p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
+## Title: SelfVQA - Visual Question Answering with Self-Supervision
+
+### Project Description:
+SelfVQA is an innovative project that explores the realm of Visual Question Answering (VQA) through the lens of self-supervised learning techniques. The goal of this project is to develop a robust model capable of answering questions about images, leveraging self-supervision to enhance its understanding of visual content.
+
+### Key Features:
+- **Self-Supervised Learning:** Utilize self-supervised learning strategies to enhance the model's comprehension of visual information without relying on external labeled datasets.
+  
+- **Deep Neural Networks:** Implement state-of-the-art deep neural networks to extract meaningful features from images and questions, fostering a more nuanced understanding of the relationship between visual and textual elements.
+
+- **Interactive Question-Answering Interface:** Showcase the model's capabilities through an interactive interface where users can input questions related to provided images and witness the model's responses.
+
+- **Adaptability:** The architecture is designed to be adaptable to various image datasets, ensuring flexibility for different applications and domains.
+
+### How to Use:
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/smn06/selfvqa.git
+   cd selfvqa
+   ```
+
+2. **Setup Environment:**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. **Download Pre-trained Models:**
+   Download pre-trained models for image feature extraction and question embedding from [link-to-be-provided] and place them in the `models` directory.
+
+4. **Run the Demo:**
+   Execute the demo script to interact with the model:
+   ```bash
+   python demo.py
+   ```
+
+### License:
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
